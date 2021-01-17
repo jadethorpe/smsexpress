@@ -282,8 +282,9 @@ class smsExpress(toga.App):
                         recipient["phone_number"]
                     )
                     recipients.append(recipient)
-        except IOError as e:
-            self.action_error_dialog
+        except:
+            self.action_error_dialog(None)
+            return 0
         count = 0
         recipient_list = list()
         for recipient in recipients:
