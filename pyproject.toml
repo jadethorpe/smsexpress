@@ -1,0 +1,55 @@
+[tool.briefcase]
+project_name = "smsExpress"
+bundle = "com.visitonecc.smsexpress"
+version = "0.0.1"
+url = "https://smsexpress.visitonecc.com/smsexpress"
+license = "BSD license"
+author = 'Jade Thorpe'
+author_email = "jade.thorpe@visitonecc.com"
+
+[tool.briefcase.app.smsexpress]
+formal_name = "smsExpress"
+description = "Tool to send mass sms messages."
+icon = "src/smsexpress/resources/smsexpress"
+sources = ['src/smsexpress']
+requires = []
+
+
+[tool.briefcase.app.smsexpress.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+    'twilio',
+]
+
+[tool.briefcase.app.smsexpress.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+    'twilio',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+    'twilio',
+]
+
+[tool.briefcase.app.smsexpress.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+    'twilio',
+]
+
+# Mobile deployments
+[tool.briefcase.app.smsexpress.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+    'twilio',
+]
+
+[tool.briefcase.app.smsexpress.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+    'twilio',
+]

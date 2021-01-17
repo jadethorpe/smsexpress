@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.4
+Name: smsexpress
+Formal-Name: smsExpress
+App-ID: com.visitonecc.smsexpress.smsexpress
+Version: 0.0.1
+Home-page: https://smsexpress.visitonecc.com/smsexpress
+Author: Jade Thopre
+Author-email: jade.thorpe@visitonecc.com
+Summary: Tool to send mass sms messages.
