@@ -1,11 +1,11 @@
 [tool.briefcase]
 project_name = "smsExpress"
 bundle = "com.visitonecc.smsexpress"
-version = "0.0.1"
+version = "0.0.2"
 url = "https://smsexpress.visitonecc.com/smsexpress"
 license = "BSD license"
 author = 'Jade Thorpe'
-author_email = "jade.thorpe@visitonecc.com"
+author_email = "jade.thorpe@gmail.com"
 
 [tool.briefcase.app.smsexpress]
 formal_name = "smsExpress"
